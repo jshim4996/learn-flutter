@@ -1,6 +1,6 @@
 # learn-flutter
 
-> AI가 가르치고, 사람이 배운다 - Flutter 앱 개발 학습 실험
+> AI가 가르치고, 사람이 배운다 - Flutter 앱 개발 학습
 
 ---
 
