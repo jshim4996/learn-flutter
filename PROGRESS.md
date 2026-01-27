@@ -117,8 +117,6 @@ chapters/
 - [ ] 비교 연산자
 - [ ] 논리 연산자
 - [ ] 삼항 연산자
-- [ ] ?? 연산자 (null 병합)
-- [ ] ?. 연산자 (null 조건)
 
 ### 조건문과 반복문
 - [ ] if / else
@@ -150,10 +148,10 @@ chapters/
 
 ### 상속과 인터페이스
 - [ ] extends (상속)
+- [ ] @override
 - [ ] implements (인터페이스)
 - [ ] abstract class
 - [ ] mixin (with)
-- [ ] @override
 
 ---
 
@@ -169,8 +167,11 @@ chapters/
 
 ### Stream
 - [ ] Stream 개념
-- [ ] StreamBuilder
 - [ ] async* / yield
+
+### 에러 처리
+- [ ] try-catch-finally
+- [ ] Exception과 Error
 
 ---
 
@@ -187,9 +188,10 @@ chapters/
 ### Widget 기초
 - [ ] Widget 개념
 - [ ] StatelessWidget
-- [ ] StatefulWidget
-- [ ] setState()
+- [ ] StatefulWidget / setState()
+- [ ] Widget 생명주기 (initState, dispose)
 - [ ] BuildContext
+- [ ] StreamBuilder / FutureBuilder
 
 ### 기본 Widget
 - [ ] Text
@@ -246,7 +248,7 @@ chapters/
 > **examples**: `chapters/chapter07/examples/`
 
 ### 기본
-- [ ] setState
+- [ ] setState의 한계
 - [ ] InheritedWidget
 
 ### 상태 관리 라이브러리 (택 1)
@@ -268,8 +270,7 @@ chapters/
 - [ ] JSON 파싱
 - [ ] 모델 클래스 생성
 
-### 에러 처리
-- [ ] try-catch 패턴
+### 에러 처리 및 UX
 - [ ] 에러 상태 관리 (loading, success, error)
 - [ ] 사용자 피드백 (SnackBar, Dialog)
 
@@ -315,6 +316,7 @@ chapters/
 
 | 주제 | 언제 |
 |------|------|
+| 반응형 레이아웃 (MediaQuery, LayoutBuilder) | 태블릿/웹 지원할 때 |
 | 애니메이션 | UI 효과 필요할 때 |
 | Custom Painter | 커스텀 그래픽 필요할 때 |
 | Platform Channel | 네이티브 기능 연동할 때 |
